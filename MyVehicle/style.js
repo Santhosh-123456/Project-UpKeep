@@ -1,0 +1,151 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F8F9FA',
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 20,
+    paddingHorizontal: 16,
+    backgroundColor: '#fff',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E0E0E0',
+  },
+  headerTitle: {
+    fontSize: 20,
+    fontWeight: '700',
+    color: '#1A1A1A',
+  },
+  headerRight: {
+    width: 24,
+  },
+  vehicleCard: {
+    flex: 1,
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    margin: 16,
+    marginBottom: 8,
+    padding: 16,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    elevation: 5,
+  },
+  vehicleImage: {
+    alignSelf: 'center',
+    justifyContent: 'center',
+    width: 150,
+    height: 150,
+    resizeMode: 'contain',
+    borderRadius: 12,
+    marginBottom: 0,
+  },
+  vehicleDetails: {
+    gap: 6,
+  },
+  detailRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 4,
+  },
+  detailLabel: {
+    fontSize: 15,
+    color: '#666',
+    fontWeight: '500',
+  },
+  detailValue: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#1A1A1A',
+  },
+  addVehicleSection: {
+    paddingHorizontal: 16,
+    marginTop: 8,
+  },
+  addButton: {
+    backgroundColor: '#007AFF',
+    padding: 16,
+    borderRadius: 12,
+    alignItems: 'center',
+    shadowColor: '#007AFF',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    elevation: 4,
+  },
+  addButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '700',
+  },
+  calculatorsSection: {
+    padding: 16,
+    gap: 16,
+  },
+  calculatorCard: {
+    backgroundColor: '#fff',
+    borderRadius: 14,
+    padding: 12,
+    flexDirection: 'row',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.12,
+    shadowRadius: 6,
+    elevation: 4,
+  },
+  calculatorIcon: {
+    width: 52,
+    height: 52,
+    borderRadius: 26,
+    backgroundColor: '#007AFF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 18,
+    shadowColor: '#007AFF',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  calculatorInfo: {
+    flex: 1,
+  },
+  calculatorTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#1A1A1A',
+    marginBottom: 4,
+  },
+  calculatorDescription: {
+    fontSize: 14,
+    color: '#666',
+    lineHeight: 20,
+  },
+  noVehicleText: {
+    fontSize: 16,
+    color: '#666',
+    textAlign: 'center',
+    marginTop: 24,
+    fontWeight: '500',
+  },
+});
+export default styles;
